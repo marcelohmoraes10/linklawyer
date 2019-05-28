@@ -1,0 +1,29 @@
+// cria o arquivo package.json, com informações sobre o projeto
+
+npm init -y
+
+// instala o express no projeto
+
+npm install express --save
+
+// executa o projeto
+
+node index.js
+
+// instala o nodemon, que reinicia o servidor a cada modificação
+
+npm install nodemon -g
+
+// executa o projeto via nodemon
+
+nodemon index.js
+
+// instala o joi, para validar as entradas no usuário pelo método post
+
+npm install joi
+
+// é possível substituir o joi pelo express-validator, pois o joi foi descontinuado
+
+// instala o express validator
+
+npm install express-validator
